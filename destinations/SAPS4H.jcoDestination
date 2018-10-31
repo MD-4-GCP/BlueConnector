@@ -1,0 +1,7 @@
+# An example destination file
+jco.client.lang=DE
+jco.client.client=100
+jco.client.passwd=<Pass>
+jco.client.user=SAPUSER
+jco.client.sysnr=00
+jco.client.ashost=127.0.0.1

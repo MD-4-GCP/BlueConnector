@@ -1,0 +1,7 @@
+/.settings/
+/.vscode/
+/target/
+/environment/
+/libs/libsapjco3.jnilib
+/libs/libsapjco3.so
+/libs/sapjco3.jar
