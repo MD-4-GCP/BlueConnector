@@ -1,7 +1,8 @@
 /.settings/
 /.vscode/
 /target/
-/environment/
+/environment/*
+!/environment/setCredentials.sh
 /libs/libsapjco3.jnilib
 /libs/libsapjco3.so
 /libs/sapjco3.jar
