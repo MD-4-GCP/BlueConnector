@@ -40,7 +40,11 @@ public class ServiceStarter
             //Set Content Type JSON for all API Calls
             Spark.after("/*", (q, a) -> {
             	a.header("Content-Type", "application/json");
-        	});
+			});
+			
+			Spark.path("apidoc", () -> {
+				Spark.staticFiles.location("apidoc/");
+			});
             
             
         	Spark.get("/welcome", (request, response) -> {

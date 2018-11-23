@@ -46,7 +46,7 @@
 	  <version>1.50.0</version>
 	</dependency>
 	
-	<dependency>
+    <dependency>
 	    <groupId>com.sap.jco</groupId>
 	    <artifactId>jco</artifactId>
 	    <version>3.0.0</version>
